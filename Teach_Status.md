@@ -2,25 +2,30 @@
 
 ## 講義履歴
 
-### Lecture 0: Setup & Roadmap (Reboot)
-- **日付**: 2025-11-21
+### Lecture 0: Setup & Roadmap ✅
+- **日付**: 2025-11-21 (18:53 - 19:51)
 - **内容**:
     - `Study_Engineering` への移行
     - **方針転換**: Phase 1 (HTML/CSS基礎) から着実に進める
-    - Q&A: Next.jsはまだ早い？ -> Yes. まずは基礎から。
-- **宿題/Next Steps**:
-    - ターミナルで `Study_Engineering` に移動
-    - 基礎学習用のフォルダ `phase1_basics` を作成
-    - 最初の `index.html` を作成
+    - HTML/CSS基礎の実践 (background-color, color, font-size, text-align, padding-top)
+    - Git/GitHub の基本操作 (init, add, commit, push)
+    - 詳細ロードマップ (`Roadmap.md`) の作成
+    - 学習日報 (`Learning_Journal.md`) の開始
+- **成果物**:
+    - `index.html` - 水色背景、中央揃えの自己紹介ページ
+    - `Roadmap.md` - Awwwards到達までの詳細ロードマップ
+    - GitHubリポジトリ: https://github.com/JohnGastro/Study_Antigravity
 
 ## 次回の講義予定
-### Lecture 1: Creative Web Basics
-- **内容**:
-    - Awwwards系サイトの構造分析
-    - HTML/CSSの基礎（セマンティックHTMLとモダンCSS）
-    - アニメーションの基本概念
+### Lesson 1.2: Box Model & Flexbox
+- **目標**: レイアウトの仕組みを理解する
+- **技術**: CSS Box Model, Flexbox
+- **成果物**: カード型レイアウトのギャラリーページ
+- **Challenge**: 3カラムレイアウトを作る
 
 ## ロードマップ (概略)
+詳細は `Roadmap.md` を参照。
+
 1. **Phase 1: Foundation** - HTML, CSS, JS, Basic Animations
 2. **Phase 2: Modern Stack** - React, Next.js, Tailwind/CSS Modules
 3. **Phase 3: Creative Coding** - WebGL (Three.js/R3F), GSAP, Framer Motion
