@@ -27,12 +27,22 @@
 - **成果物**:
     - `box_model.html` - 3つのカードが横に並ぶギャラリーページ
 
+### Lesson 1.3: CSS Grid & Positioning ✅
+- **日付**: 2025-11-22 (17:40 - 18:10)
+- **内容**:
+    - CSS Grid（`display: grid;`, `grid-template-columns`, `grid-template-rows`, `gap`）
+    - 複数のclassの概念（`class="item text"`）
+    - Positioning（`position: relative;` と `position: absolute;`）
+    - `<span>` タグ（インライン要素）
+- **成果物**:
+    - `grid_layout.html` - 雑誌風レイアウト + バッジ付きカード
+
 ## 次回の講義予定
-### Lesson 1.3: CSS Grid & Positioning
-- **目標**: 複雑なレイアウトを自在に組む
-- **技術**: CSS Grid, position (absolute/relative)
-- **成果物**: 雑誌風レイアウトのページ
-- **Challenge**: 要素を重ねて配置する
+### Lesson 1.4: Transition & Transform
+- **目標**: 動きのある要素を作る
+- **技術**: CSS transition, transform
+- **成果物**: ホバーで拡大するカードUI
+- **Challenge**: 回転・スケール・移動を組み合わせる
 
 ## ロードマップ (概略)
 詳細は `Roadmap.md` を参照。
