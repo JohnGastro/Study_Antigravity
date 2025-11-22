@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h3>box1</h3>
+            <p>box1は、かなり優しく、リーダーシップメントを持って物事を遂行させる、リーダータイプ。</p>
+        </div>
+        <div class="box">
+            <h3>
+                box2
+            </h3>
+            <p>
+                box2は、沈着冷静だが実は深い部分は情熱に満ち溢れている、No.2タイプ。
+            </p>
+        </div>
+        <div class="box">
+            <h3>box3</h3>
+            <p>box3は、おちゃめでおてんばな、みんなを和ませる優しいNo.3。喧嘩はいつも仲裁役に回る。
+            </p>
+        </div>
+    </div>
+    <style>
+        .container {
+            display: flex;
+            background-color: lightgray;
+            padding: 20px;
+            border: 5px solid #333333;
+
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: yellowgreen;
+            padding: 20px;
+            border: 5px solid black;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            color: #333333;
+            margin: 50px
+        }
+    </style>
+</body>
+
+</html>
