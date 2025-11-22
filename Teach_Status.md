@@ -37,12 +37,22 @@
 - **成果物**:
     - `grid_layout.html` - 雑誌風レイアウト + バッジ付きカード
 
+### Lesson 1.4: Transition & Transform ✅
+- **日付**: 2025-11-22 (18:53 - 20:37)
+- **内容**:
+    - 疑似クラス（`:hover`）
+    - Transition（`transition: all 0.3s ease;`）
+    - Transform（`transform: scale(1.05);`）
+    - UX（ユーザー体験）の理解
+- **成果物**:
+    - `box_model.html` - ホバーで拡大するカードUI
+
 ## 次回の講義予定
-### Lesson 1.4: Transition & Transform
-- **目標**: 動きのある要素を作る
-- **技術**: CSS transition, transform
-- **成果物**: ホバーで拡大するカードUI
-- **Challenge**: 回転・スケール・移動を組み合わせる
+### Lesson 1.5: レスポンシブデザイン
+- **目標**: スマホ・タブレット・PCで最適表示
+- **技術**: Media Queries, Viewport
+- **成果物**: どのデバイスでも美しいページ
+- **Challenge**: ブレイクポイントを3つ設定する
 
 ## ロードマップ (概略)
 詳細は `Roadmap.md` を参照。
