@@ -33,12 +33,13 @@
             background-color: lightgray;
             padding: 20px;
             border: 5px solid #333333;
+            justify-content: space-between;
 
         }
 
         .box {
-            width: 200px;
-            height: 200px;
+            box-sizing: border-box;
+            flex: 1;
             background-color: yellowgreen;
             padding: 20px;
             border: 5px solid black;
@@ -53,6 +54,19 @@
             background-color: white;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
             transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .box {
+                width: auto;
+                margin: 10px 0;
+            }
+
+
         }
     </style>
 </body>

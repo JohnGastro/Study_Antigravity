@@ -47,12 +47,30 @@
 - **成果物**:
     - `box_model.html` - ホバーで拡大するカードUI
 
+### Lesson 1.5: レスポンシブデザイン ✅
+- **日付**: 2025-11-23 (10:28 - 10:44)
+- **内容**:
+    - レスポンシブデザインの必要性
+    - Media Queries（`@media (max-width: 768px) { }`）
+    - flex-direction（`column` で縦並び）
+    - box-sizing（`border-box`）
+    - justify-content（`space-between`）
+    - flex: 1（均等分配）
+- **成果物**:
+    - `box_model.html` - 完璧なレスポンシブカードUI
+
+---
+
+## 🎉 Phase 1 (Foundation) 完了！
+
+Phase 1 の全レッスンが完了しました。おめでとうございます！
+
 ## 次回の講義予定
-### Lesson 1.5: レスポンシブデザイン
-- **目標**: スマホ・タブレット・PCで最適表示
-- **技術**: Media Queries, Viewport
-- **成果物**: どのデバイスでも美しいページ
-- **Challenge**: ブレイクポイントを3つ設定する
+### Phase 2: 実践プロジェクト
+- **目標**: 実際のWebサイトを作る
+- **技術**: これまで学んだすべての技術を統合
+- **成果物**: ポートフォリオサイト or ランディングページ
+- **Challenge**: デザインから実装まで、すべて自分で考える
 
 ## ロードマップ (概略)
 詳細は `Roadmap.md` を参照。
