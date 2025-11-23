@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="spacer">
+        スクロールしてね
+    </div>
+    <div id="target">ここが変わるよ</div>
+    <div class="spacer">もっとスクロール</div>
+    <style>
+        .spacer {
+            height: 1000px;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        #target {
+            height: 200px;
+            background-color: red;
+            color: white;
+            text-align: center;
+            line-height: 200px;
+            transition: all 0.5s;
+        }
+
+        #target.true {
+            height: 200px;
+            background-color: yellow;
+            color: blue;
+            text-align: center;
+            line-height: 200px;
+            transition: all 0.5s;
+        }
+    </style>
+    <script>
+        const target = document.getElementById('target');
+        window.addEventListener('scroll', function () {
+            if (window.scrollY >= 300) {
+                target.classList.add('true');
+            }
+            else {
+                target.classList.remove('true');
+            }
+
+        })
+    </script>
+</body>
+
+</html>

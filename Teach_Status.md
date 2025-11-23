@@ -89,12 +89,24 @@ Phase 1 の全レッスンが完了しました。おめでとうございます
 - **成果物**:
     - `color_changer.html` - クリックで色と形が変わるボタン
 
+    - `color_changer.html` - クリックで色と形が変わるボタン
+
+### Lesson 2.3: スクロールイベント ✅
+- **日付**: 2025-11-23 (11:45 - 19:35)
+- **内容**:
+    - `window` vs `document`
+    - `scroll` イベント
+    - `window.scrollY`
+    - 条件分岐（`if`）によるクラス操作
+- **成果物**:
+    - `scroll_practice.html` - スクロールで色が変わるページ
+
 ## 次回の講義予定
-### Lesson 2.3: スクロールイベント
-- **目標**: スクロールに反応する要素を作る
-- **技術**: scroll event, IntersectionObserver
-- **成果物**: スクロールでフェードインする要素
-- **Challenge**: スクロール量に応じて背景色を変える
+### Lesson 2.4: Fetch API & 非同期処理
+- **目標**: 外部データを取得して表示する
+- **技術**: fetch, async/await, JSON
+- **成果物**: APIから画像を取得して表示するギャラリー
+- **Challenge**: ローディング表示を実装する
 
 ## ロードマップ (概略)
 詳細は `Roadmap.md` を参照。
