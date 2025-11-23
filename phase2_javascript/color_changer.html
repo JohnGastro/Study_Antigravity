@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box {
+            width: 200px;
+            height: 200px;
+            background-color: gray;
+        }
+
+        #box.active {
+            background-color: red;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+
+    </div>
+    <button id="btn">
+        色を変える
+    </button>
+    <script>
+        const box = document.getElementById('box');
+        const button = document.getElementById('btn');
+        button.addEventListener('click', function () {
+            box.classList.toggle('active');
+        }
+        )
+    </script>
+</body>
+
+</html>

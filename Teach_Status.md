@@ -79,12 +79,22 @@ Phase 1 の全レッスンが完了しました。おめでとうございます
 - **成果物**:
     - `counter.html` - ボタンで数字が増えるカウンター
 
+### Lesson 2.2: DOM操作 ✅
+- **日付**: 2025-11-23 (11:21 - 11:44)
+- **内容**:
+    - CSSセレクタ（`#id` vs `.class`）
+    - CSS優先順位（ID > Class）
+    - スタイル操作（`style.backgroundColor`）
+    - クラス操作（`classList.add`, `toggle`）
+- **成果物**:
+    - `color_changer.html` - クリックで色と形が変わるボタン
+
 ## 次回の講義予定
-### Lesson 2.2: DOM操作
-- **目標**: JavaScriptでHTMLを操作する
-- **技術**: querySelector, addEventListener, classList
-- **成果物**: クリックで色が変わるボタン
-- **Challenge**: モーダルウィンドウを作る
+### Lesson 2.3: スクロールイベント
+- **目標**: スクロールに反応する要素を作る
+- **技術**: scroll event, IntersectionObserver
+- **成果物**: スクロールでフェードインする要素
+- **Challenge**: スクロール量に応じて背景色を変える
 
 ## ロードマップ (概略)
 詳細は `Roadmap.md` を参照。
