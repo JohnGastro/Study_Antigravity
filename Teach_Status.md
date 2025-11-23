@@ -66,11 +66,25 @@
 Phase 1 の全レッスンが完了しました。おめでとうございます！
 
 ## 次回の講義予定
-### Phase 2: 実践プロジェクト
-- **目標**: 実際のWebサイトを作る
-- **技術**: これまで学んだすべての技術を統合
-- **成果物**: ポートフォリオサイト or ランディングページ
-- **Challenge**: デザインから実装まで、すべて自分で考える
+### Phase 2: JavaScript & Interactivity (動的表現)
+
+### Lesson 2.1: JavaScript基礎 ✅
+- **日付**: 2025-11-23 (10:50 - 11:08)
+- **内容**:
+    - 変数（`const`, `let`）
+    - 要素の取得（`getElementById`）
+    - イベント（`addEventListener`）
+    - DOM操作（`innerHTML`）
+    - JSの役割（操り人形師）
+- **成果物**:
+    - `counter.html` - ボタンで数字が増えるカウンター
+
+## 次回の講義予定
+### Lesson 2.2: DOM操作
+- **目標**: JavaScriptでHTMLを操作する
+- **技術**: querySelector, addEventListener, classList
+- **成果物**: クリックで色が変わるボタン
+- **Challenge**: モーダルウィンドウを作る
 
 ## ロードマップ (概略)
 詳細は `Roadmap.md` を参照。

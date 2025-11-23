@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+</head>
+
+<body>
+    <h1 id="count">0</h1>
+    <button id="btn">+1</button>
+    <script>
+        //ここにjavascriptを書く
+        const countText = document.getElementById('count');
+        const btn = document.getElementById('btn');
+        let count = 0;
+        btn.addEventListener('click', function () {
+            count = count + 1;
+            countText.innerHTML = count;
+        })
+    </script>
+</body>
+
+</html>
