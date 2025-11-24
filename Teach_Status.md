@@ -101,12 +101,53 @@ Phase 1 の全レッスンが完了しました。おめでとうございます
 - **成果物**:
     - `scroll_practice.html` - スクロールで色が変わるページ
 
+### Lesson 2.4: Fetch API & 非同期処理 ✅
+- **日付**: 2025-11-24 (11:50 - 12:18)
+- **内容**:
+    - `fetch` (データの取得)
+    - `async` / `await` (非同期処理)
+    - `response.json()` (JSONパース)
+    - DOM操作 (画像の `src` 変更)
+    - UX向上 (ローディング表示)
+- **成果物**:
+    - `fetch_practice.html` - ボタンでランダムな犬画像を召喚するアプリ
+
+---
+
+## 🎉 Phase 2 (JavaScript & Interactivity) 完了！
+
+JavaScriptの基礎から、DOM操作、イベント、そして外部APIとの連携まで、Webアプリに必要な基礎技術を全て習得しました。
+これで「静的なページ」から「動的なアプリ」を作れるエンジニアになりました。
+
 ## 次回の講義予定
-### Lesson 2.4: Fetch API & 非同期処理
-- **目標**: 外部データを取得して表示する
-- **技術**: fetch, async/await, JSON
-- **成果物**: APIから画像を取得して表示するギャラリー
-- **Challenge**: ローディング表示を実装する
+### Phase 3: Modern Stack (モダンツール)
+
+### Lesson 3.1: Next.js入門 ✅
+- **日付**: 2025-11-24 (12:20 - 12:42)
+- **内容**:
+    - Next.jsプロジェクトの作成 (`npx create-next-app`)
+    - フォルダ構造 (`app`, `public`)
+    - ファイルシステムルーティング (`app/about/page.tsx` → `/about`)
+    - JSX記法 (`className`, `{/* */}`)
+    - `<Link>` コンポーネントによる遷移
+- **成果物**:
+    - `phase3_nextjs` - トップページとAboutページを行き来できるサイト
+- **Challenge**: 動的ルーティングを実装する (次回以降)
+
+### Lesson 3.2: Tailwind CSS ✅
+- **日付**: 2025-11-24 (14:00 - 15:30)
+- **内容**:
+    - Tailwindのユーティリティクラスで余白・タイポ・カラーを即時調整
+    - `space-y`, `grid`, `md:grid-cols-3` でHeroとFeature Tilesを構築
+    - カスタムデザイントークン (`text-[color:var(--color-foreground)]`) の活用
+    - `group` / `group-hover` と `animate-[...]` でCTAボタンに虹色フェード演出を実装
+- **成果物**:
+    - `phase3_nextjs/app/page.tsx` - Hero + Feature Tiles + グラデーションCTAアニメーション
+
+## 次回の講義予定
+### Lesson 3.3: Framer Motion
+- 宣言的アニメーションでHero / Tilesにモーションを付加
+- Next.js + Tailwindにモーションライブラリを組み合わせる準備
 
 ## ロードマップ (概略)
 詳細は `Roadmap.md` を参照。
