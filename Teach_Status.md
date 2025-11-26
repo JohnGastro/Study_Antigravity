@@ -144,10 +144,38 @@ JavaScriptの基礎から、DOM操作、イベント、そして外部APIとの�
 - **成果物**:
     - `phase3_nextjs/app/page.tsx` - Hero + Feature Tiles + グラデーションCTAアニメーション
 
+### Lesson 3.3: Framer Motion ✅
+- **日付**: 2025-11-24 (16:00 - 17:00)
+- **内容**:
+  - Framer Motion の導入 (`npm install framer-motion`)
+  - `"use client"` ディレクティブの理解（Next.js の Server/Client コンポーネント）
+  - `motion.h1` と `motion.div` で宣言的アニメーションを実装
+  - `initial`, `animate`, `whileInView`, `transition` の使い分け
+  - Hero のフェードアップ + Feature Tiles の順番に現れるスクロールモーション
+- **成果物**:
+  - `phase3_nextjs/app/page.tsx` - Hero + Feature Tiles に Framer Motion を統合
+
+---
+
+## 🎉 Phase 3 (Modern Stack) 完了！
+
+Next.js、Tailwind CSS、Framer Motion という現代のWeb開発スタックを完全習得しました。
+これで「モダンなフレームワーク」を使いこなせるエンジニアになりました。
+
+### Lesson 4.1: GSAP基礎（導入部分）✅
+- **日付**: 2025-11-24 (17:30 - 18:00)
+- **内容**:
+  - GSAP の導入 (`npm install gsap`)
+  - `useRef` と `useEffect` を使った GSAP アニメーションの実装
+  - `gsap.from()` で複合アニメーション（`rotation`, `scale`, `ease: "bounce.out"`）
+  - Framer Motion との違い（宣言的 vs 命令的）を理解
+- **成果物**:
+  - `phase3_nextjs/app/page.tsx` - Hero 見出しに GSAP アニメーションを実装
+
 ## 次回の講義予定
-### Lesson 3.3: Framer Motion
-- 宣言的アニメーションでHero / Tilesにモーションを付加
-- Next.js + Tailwindにモーションライブラリを組み合わせる準備
+### Lesson 4.1 の続き: ScrollTrigger
+- ScrollTrigger プラグインを使ったスクロール連動アニメーション
+- パララックススクロールやピン留めセクションの実装
 
 ## ロードマップ (概略)
 詳細は `Roadmap.md` を参照。
